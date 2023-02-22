@@ -14,6 +14,6 @@ pip install -r requirements.txt
 ```
 python3 manage.py runserver
 ```
-### Автор
+### Авторы
  Абя Булхуков
 
