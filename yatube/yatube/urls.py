@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('', include('posts.urls')),
+    #при создании namespace прописываем апп нэйм в урлах прил
+    path('', include('posts.urls', namespace='posts')),
     path('admin/', admin.site.urls),
 ]
