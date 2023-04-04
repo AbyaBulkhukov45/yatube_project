@@ -26,4 +26,4 @@ def group_posts(request, slug):
         'title': title,
         'text': 'Здесь будет информация о группах проекта Yatube'
     }
-    return render(request,template,context,)
+    return render(request,template,context,{})
